@@ -1,5 +1,6 @@
-import { create, createReportList } from './modules/canvas.js'
-import { draw, reportArea, reportPerimeter } from './modules/square.js'
+import { create, createReportList } from "./modules/canvas.js";
+import { draw, reportArea, reportPerimeter } from "./modules/square.js";
+
 
 const myCanvas = create('myCanvas', document.body, 480, 320);
 const reportList = createReportList(myCanvas.id);
